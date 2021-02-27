@@ -1,0 +1,85 @@
+/*this is the css page for login choice */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+	
+    font-family: monospace;
+}
+.hero
+{
+	
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+	margin-top: 0px;
+    padding-bottom: 100px;
+}
+
+header
+{
+    background-image:url(1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.button
+{
+	padding-top: 400px;
+	float: center;
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+.btn
+{
+    border: 1px solid white;
+	background: #708090;
+    padding: 20px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.btn-one
+{
+    font-family: "Roboto", sans-serif;
+}
+.btn-one:hover
+{
+    background-color: #ff9f80;
+    transition: all 0.5s ease-in;
+    
+        
+}
+
+.btn-two
+{
+    font-family: "Roboto", sans-serif;
+}
+
+
+.btn-two:hover
+{
+    background-color: #ff9f80;
+    transition: all 0.5s ease-in;
+    
+        
+}
+
+
+
+
+
+
+
+
+
+
+

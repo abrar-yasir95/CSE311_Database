@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CGPA Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1><a href="./">CGPA Calculator</a></h1>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="semester-box">
+                <h2 class="semester-box-heading">Semester 1</h2>
+                <form id="semester-1">
+                    <div class="courses">
+                        <div class="field-group">
+                            <label for="sem1-course1">Course Code: </label>
+                            <input type="text" class="course-details" id="sem1-course1">
+                        </div>
+
+                        <div class="field-group">
+                            <label for="sem1-grade1">Grade: </label>
+                            <input type="text" class="course-details" id="sem1-grade1" required>
+                        </div>
+                       
+                        <div class="field-group">
+                            <label for="sem1-unit1">No of Units: </label>
+                            <input type="text" class="course-details" id="sem1-unit1" required>
+                        </div>
+                    </div>
+                    <div class="courses">
+                        <div class="field-group">
+                            <label for="sem1-course2">Course Code: </label>
+                            <input type="text" class="course-details" id="sem1-course2">
+                        </div>
+
+                        <div class="field-group">
+                            <label for="sem1-grade2">Grade: </label>
+                            <input type="text" class="course-details" id="sem1-grade2" required>
+                        </div>
+                       
+                        <div class="field-group">
+                            <label for="sem1-unit2">No of Units: </label>
+                            <input type="text" class="course-details" id="sem1-unit2" required>
+                        </div>
+                    </div>
+                    <div class="courses">
+                        <div class="field-group">
+                            <label for="sem1-course3">Course Code: </label>
+                            <input type="text" class="course-details" id="sem1-course3">
+                        </div>
+
+                        <div class="field-group">
+                            <label for="sem1-grade3">Grade: </label>
+                            <input type="text" class="course-details" id="sem1-grade3" required>
+                        </div>
+                       
+                        <div class="field-group">
+                            <label for="sem1-unit3">No of Units: </label>
+                            <input type="text" class="course-details" id="sem1-unit3" required>
+                        </div>
+                    </div>
+                    <div class="courses">
+                        <div class="field-group">
+                            <label for="sem1-course4">Course Code: </label>
+                            <input type="text" class="course-details" id="sem1-course4">
+                        </div>
+                        
+                        <div class="field-group">
+                            <label for="sem1-grade4">Grade: </label>
+                            <input type="text" class="course-details" id="sem1-grade4" required>
+                        </div>
+                       
+                        <div class="field-group">
+                            <label for="sem1-unit4">No of Units: </label>
+                            <input type="text" class="course-details" id="sem1-unit4" required>
+                        </div>
+                    </div>
+                    <div class="courses">
+                        <div class="field-group">
+                            <label for="sem1-course5">Course Code: </label>
+                            <input type="text" class="course-details" id="sem1-course5">
+                        </div>
+
+                        <div class="field-group">
+                            <label for="sem1-grade5">Grade: </label>
+                            <input type="text" class="course-details" id="sem1-grade5" required>
+                        </div>
+                        
+                        <div class="field-group">
+                            <label for="sem1-unit5">No of Units: </label>
+                            <input type="text" class="course-details" id="sem1-unit5" required>
+                        </div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="add-new-course" id="add-course">+ Add another course</button>
+                        <button class="calculate-gpa" id="calc-gpa">Calculate My GPA</button>
+                    </div>
+                    
+                </form>
+
+                <!--Display the results of the semester GPA Calculation -->
+                <div id="semester-cgpa"></div>
+            </div>
+
+            <button class="add-new-semester" id="add-semester">Add another Semester</button>
+
+            <!--Display the results of the CGPA Calculation -->
+            <div class="total-cgpa"></div>
+        </section>
+
+    </main>
+    
+    <footer>
+        <p>&copy; 2018</p>
+    </footer>
+</body>
+</html>

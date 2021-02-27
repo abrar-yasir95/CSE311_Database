@@ -1,0 +1,50 @@
+/*this is the css page for user login  */
+
+.container{
+	width:370px;
+	height:300px;
+	background-color:rfba(255,255,255,0.2);
+	margin: auto;
+	margin-top: 230px;
+	border-radius: 20px;
+	padding-top: 20px;
+}
+body{
+	background: url(2.jpg);
+    background-repeat: no-repeat;
+    background-size: full;	
+}
+label{
+	font-size: 40px;
+	margin-left: 129px;
+	font-family: forte;
+	color: rgb(246, 253, 39);
+}
+input{
+	padding-left:15px;
+	padding-right:15px;
+	font-size: 24px;
+	border-radius: 7px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 15px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.btn{
+	width: 328px;
+	height: 40px;
+	margin-left: 17px;
+	margin-top: 15px;
+	border-radius: 10px;
+	font-family: georgian;
+	font-size: 21px;
+	background-color: #4DEBF6;
+	cursor: pointer;
+}
+a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	margin-left: 200px;
+}
