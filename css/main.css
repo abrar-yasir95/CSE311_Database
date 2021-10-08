@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.2em;
+}
+* {
+    box-sizing: border-box;
+}
+
+header {
+    border-bottom: 1px solid #9eaaa9;
+}
+header nav{
+    padding: 0.6em;
+    text-align: center;
+    text-transform: uppercase;
+}
+header h1 a {
+    color: #4b5151;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    text-decoration: underline;
+}
+
+main{
+    padding: 2em;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.semester-box {
+    border: 1px solid #9eaaa9;
+    border-radius: 5px;
+    padding-bottom: 1em;
+    margin-bottom: 1em
+}
+
+.semester-box-heading {
+    margin: 0;
+    padding: 0.5em;
+    background: #9eaaa9
+}
+
+.semester-box form {
+    padding: 1.2em
+}
+
+.courses {
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.field-group {
+    padding: 1em;
+}
+
+.field-group label {
+    font-weight: 600;
+}
+.course-details {
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.action-buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.action-buttons button:first-of-type {
+    margin-right: 1em;
+}
+
+.action-buttons button,
+.add-new-semester {
+    padding: 0.6em;
+    background: #444444;
+    color: #ffffff;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 0.2em;
+    border: 1px solid #4b5151;
+    box-shadow: 4px 4px 5px #b7bcbc;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.action-buttons button:hover,
+.action-buttons button:focus,
+.add-new-semester:hover,
+.add-new-semester:focus {
+    background: #fefefe;
+    color: #444444;
+}
+
+footer {
+    background: #4e5151;
+    padding: 1em;
+    text-align: center;
+}
+
+footer p {
+    color: #ffffff;
+}
